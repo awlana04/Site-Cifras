@@ -11,6 +11,7 @@ Estamos todos aprendendo, portanto, interage no grupo no whatsapp para ideias de
 3. Faça seu Commit (```git commit -m 'adicionando um negócio massa'```)
 4. Faça Push no seu Branch (```git push origin 'feature/loveIfma'```)
 5. Abra um Pull Request e vem pro abraço!
+6. _ideias para a logo_
 
 ## Tem algo a dizer? 
 Abra uma issue [aqui](https://github.com/EmmanoelCoutinho/Site-Cifras/issues)
