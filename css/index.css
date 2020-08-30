@@ -38,7 +38,7 @@ footer {
 .search-box{
 	position: absolute;
 	top: 10%;
-	left: 50%;
+	left: 30%;
 	transform: translate(-50%,-50%);
 	background: rgb(40, 103, 89);
 	height: 40px;
@@ -77,11 +77,24 @@ footer {
  }
 .log{
 	position: absolute;
-	left: 3%;
+	left: 0.1%;
 	margin: 3px;
 	max-width: 200px;
 	max-height: 200px;
 	width: auto;
 	height: auto;
 }
+.login{
+	position: absolute;
+	right: 20px;
+	margin: 50px;
+}
+.sing{
+	background:none;
+	border: none;
+	color: rgb(40, 103, 89);
+	cursor: pointer;
+	font-size: 22px;
+}
+
 
