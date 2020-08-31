@@ -37,3 +37,7 @@ footer {
 	background: pink;
 	grid-area:f;
 }
+.logo{
+	margin: 10px;
+	position: absolute;
+}

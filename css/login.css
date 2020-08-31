@@ -74,3 +74,9 @@ h1{
 	transition: 0.2s;
 	color: rgb(40, 103, 89);
 }
+.logo{
+	margin: 10px;
+	left: 84%;
+	position: absolute;
+}
+
