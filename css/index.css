@@ -17,22 +17,22 @@ body {
 }
 
 header {
-	background:whitesmoke;
+	background:black;
 	grid-area:h
 }
 main {
-	background: rgb(40, 103, 89);
+	background: black;
 	grid-area:m;
 }
 aside {
-	background: rgb(40, 103, 89);
+	background: black;
 	grid-area:a;
 	font-family: 'Anton', sans-serif;
 	font-size: 20px;
-	color: whitesmoke;
+	color: #2f96e3;
 }
 footer {
-	background: whitesmoke;
+	background: black;
 	grid-area:f;
 }
 .search-box{
@@ -40,11 +40,12 @@ footer {
 	top: 10%;
 	left: 46%;
 	transform: translate(-50%,-50%);
-	background: rgb(40, 103, 89);
+	background: #20cefa;
 	height: 40px;
 	width: 800px;
 	border-radius: 40px;
 	padding: 10px;
+	background-image: linear-gradient( to right,#07e7cc,#2f96e3 );
 }
 .search-btn{
 	color: whitesmoke;
@@ -52,7 +53,7 @@ footer {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background: rgb(40, 103, 89);
+	background: #2f96e3;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -66,7 +67,7 @@ footer {
 	outline: none;
 	float: left;
 	padding: 0;
-	color: whitesmoke;
+	color: white;
 	font-family: 'Anton', sans-serif;
 	font-size: 20px;
 	transition: 0.5s;
@@ -80,8 +81,8 @@ footer {
 	position: absolute;
 	left: 0.1%;
 	margin: 3px;
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 150px;
+	max-height: 130px;
 	width: auto;
 	height: auto;
 }
@@ -94,7 +95,7 @@ footer {
 .sing{
 	background:none;
 	border: none;
-	color: rgb(40, 103, 89);
+	color: #2f96e3;
 	cursor: pointer;
 	font-size: 40px;
 	font-family: 'Anton', sans-serif;
@@ -111,7 +112,7 @@ footer {
 	cursor: pointer;
 	font-size: 20px;
 	font-family: 'Anton', sans-serif;
-	color: whitesmoke;
+	color: #2f96e3;
 }
 .top{
 	position: absolute;
