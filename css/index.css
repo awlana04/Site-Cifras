@@ -17,47 +17,47 @@ body {
 }
 
 header {
-	background:whitesmoke;
+	background:black;
 	grid-area:h
 }
 main {
-	background: rgb(40, 103, 89);
+	background: black;
 	grid-area:m;
 }
 aside {
-	background: rgb(40, 103, 89);
+	background: black;
 	grid-area:a;
-	font-family: 'Lora', serif;
+	font-family: 'Anton', sans-serif;
 	font-size: 20px;
-	color: black;
+	color: #2f96e3;
 }
 footer {
-	background: whitesmoke;
+	background: black;
 	grid-area:f;
 }
 .search-box{
 	position: absolute;
 	top: 10%;
-	left: 50%;
+	left: 46%;
 	transform: translate(-50%,-50%);
-	background: rgb(40, 103, 89);
+	background: #20cefa;
 	height: 40px;
-	width: 400px;
+	width: 800px;
 	border-radius: 40px;
 	padding: 10px;
+	background-image: linear-gradient( to right,#07e7cc,#2f96e3 );
 }
 .search-btn{
-	color: whitesmoke;
 	float: right;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background: rgb(40, 103, 89);
+	background: #2f96e3;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	transition: 0.4s;
-	color: whitesmoke;
+	color: black;
 	cursor: pointer;
 }	
 .search-txt{
@@ -66,22 +66,59 @@ footer {
 	outline: none;
 	float: left;
 	padding: 0;
-	color: whitesmoke;
+	color: black;
+	font-family: 'Anton', sans-serif;
 	font-size: 20px;
 	transition: 0.5s;
 	line-height: 40px;
-	width: 240px;
+	width: 750px;
 }
 ::-webkit-input-placeholder {
-	color: whitesmoke;
+	color: black;
  }
 .log{
 	position: absolute;
-	left: 3%;
+	left: 0.1%;
 	margin: 3px;
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 150px;
+	max-height: 130px;
 	width: auto;
 	height: auto;
 }
+.login{
+	position: absolute;
+	right: 20px;
+	margin: 22px;
+	padding: 10px;
+}
+.sing{
+	background:none;
+	border: none;
+	color: #2f96e3;
+	cursor: pointer;
+	font-size: 40px;
+	font-family: 'Anton', sans-serif;
+}
+.sidebar{
+	position: absolute;
+	float: left;
+	left: 85%;
+	top: 30%;
+}
+.topDez{
+	background:none;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	color: #2f96e3;
+}
+.top{
+	position: absolute;
+	left: 90%;
+	padding-bottom: 50px;
+	font-size: 30px;
+
+}
+
 
