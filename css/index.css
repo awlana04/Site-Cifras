@@ -48,7 +48,6 @@ footer {
 	background-image: linear-gradient( to right,#07e7cc,#2f96e3 );
 }
 .search-btn{
-	color: whitesmoke;
 	float: right;
 	width: 40px;
 	height: 40px;
@@ -58,7 +57,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	transition: 0.4s;
-	color: whitesmoke;
+	color: black;
 	cursor: pointer;
 }	
 .search-txt{
@@ -67,7 +66,7 @@ footer {
 	outline: none;
 	float: left;
 	padding: 0;
-	color: white;
+	color: black;
 	font-family: 'Anton', sans-serif;
 	font-size: 20px;
 	transition: 0.5s;
@@ -75,7 +74,7 @@ footer {
 	width: 750px;
 }
 ::-webkit-input-placeholder {
-	color: whitesmoke;
+	color: black;
  }
 .log{
 	position: absolute;
