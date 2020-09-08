@@ -48,7 +48,6 @@ footer {
 	background-image: linear-gradient( to right,#07e7cc,#2f96e3 );
 }
 .search-btn{
-	color: whitesmoke;
 	float: right;
 	width: 40px;
 	height: 40px;
@@ -58,7 +57,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	transition: 0.4s;
-	color: whitesmoke;
+	color: black;
 	cursor: pointer;
 }	
 .search-txt{
