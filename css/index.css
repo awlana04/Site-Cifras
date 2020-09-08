@@ -67,7 +67,7 @@ footer {
 	outline: none;
 	float: left;
 	padding: 0;
-	color: white;
+	color: black;
 	font-family: 'Anton', sans-serif;
 	font-size: 20px;
 	transition: 0.5s;
@@ -75,7 +75,7 @@ footer {
 	width: 750px;
 }
 ::-webkit-input-placeholder {
-	color: whitesmoke;
+	color: black;
  }
 .log{
 	position: absolute;
