@@ -20,5 +20,7 @@ function executar() {
 
 }
 
+console.log('teste')
+
 
 
