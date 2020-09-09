@@ -1,0 +1,23 @@
+{
+    "name": "SiteCifras",
+    "version": "1.0.0",
+    "description": "Aprender conceitos de web",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EmmanoelCoutinho/Site-Cifras.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/EmmanoelCoutinho/Site-Cifras/issues"
+    },
+    "homepage": "https://github.com/EmmanoelCoutinho/Site-Cifras#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
