@@ -1,0 +1,131 @@
+/* geral */
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+border:none
+}
+
+h1{
+color: white;
+text-align: center;
+font-size: 40px;
+font-family: Helvetica, sans-serif;
+}
+
+input, label{
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus{
+    outline:none;
+}
+
+body{
+padding-top: 5vh;
+box-sizing:border-box;
+background-image: url(../img/bg.jpg);
+background-size: cover;
+overflow-x: hidden; 
+border: none;
+}
+
+#main-container {
+width: 500px;
+margin-left:auto;
+margin-right:auto;
+background-color: rgba(0,0,5,0.8);;
+border-radius: 10px;
+padding: 25px;
+margin-top: 50px;
+}
+
+#main-container h1{
+text-align:center;
+margin-bottom: 25px;
+font-size: 1.6rem;
+color: white;
+}
+
+form {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.full-box{
+color: white;
+flex: 1 1 100%;
+position: relative;
+}
+
+.half-box{
+color: white;
+flex: 1 1 45%;
+position: relative; 
+}
+
+.spacing{
+    margin-right: 2.5%;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid rgb(59, 57, 57);
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input[type="submit"] {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  width: 500px;
+  height: 40px;
+  position: absolute;
+  left: 410px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+cursor: pointer;
+background-color: rgb(40, 103, 89);
+transition: 0.2s;    
+}
+
+.box_termo{
+padding: 10px;
+width: 387px;
+height: auto;
+overflow: hidden;
+}
+
+.input_box {
+float:left;
+border: 1px solid #FF0000;
+margin: 0 5px 0 0;
+padding: 0;
+}
+
+
+.texto_box{
+color:white;
+font-size:12px;
+font-weight:bold;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin: 0;
+padding: 0;
+position: absolute;
+left: 425px;
+}
+
+.logo{
+float: right;
+}
